@@ -81,7 +81,7 @@ def detect_cnv(train_bam_path, result_output_path, chr_num):
     cnv_type = np.full(len(cnv_RD), 1)
 
     for i in range(len(cnv_index)):
-        if segRD[cnv_index[i]] >= 0.05:
+        if segRD[cnv_index[i]] >= 0.5:
             cnv_type[i] = 2
 
     for i in range(len(cnv_index) - 1):
