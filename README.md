@@ -16,8 +16,8 @@ cnvpytor=1.3.1
 ```
 if __name__ == '__main__':
     chr_num = 21;
-    train_bam_path = '/realdata/1000Genome/NA19239.chrom21.SLX.maq.SRP000032.2009_11.bam'
-    output_path = "/realdata/1000Genome/CNV_MCD/NA19239_result.txt"
+    train_bam_path = '/../test.bam'
+    output_path = "/../test_result.txt"
     detect_cnv(train_bam_path, output_path, chr_num)
 ```
 ```
