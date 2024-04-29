@@ -27,5 +27,5 @@ if __name__ == '__main__':
 ### 2、Run main.py (for testing a single BAM file) or run run.py (for testing multiple BAM files).
 # Real Datasets
 ### The real datasets can be obtained in the following way.
--Clink this link：(https://pan.baidu.com/s/1bHGFtC4_EA5Hc9bURXEsJw) 
--extraction code：o122 
+- Clink this link：(https://pan.baidu.com/s/1bHGFtC4_EA5Hc9bURXEsJw) 
+- extraction code：o122 
