@@ -12,7 +12,7 @@ numpy=1.23.5
 cnvpytor=1.3.1
 ```
 # Usage
-## Open the file main.py and preprocess.py and modify the variables bamFilePath and refPath inside;
+### 1、Open the file main.py and preprocess.py and modify the variables bamFilePath and refPath inside;
 ```
 if __name__ == '__main__':
     chr_num = 21;
@@ -24,3 +24,8 @@ if __name__ == '__main__':
  for i in range(chrNum):
         refList = read_ref_file("../hg19/chr" + str(chr_num) + ".fa", refList, i)
 ```
+### 2、Run main.py (for testing a single BAM file) or run run.py (for testing multiple BAM files).
+# Real Datasets
+### The real datasets can be obtained in the following way.
+-Clink this link：(https://pan.baidu.com/s/1bHGFtC4_EA5Hc9bURXEsJw) 
+-extraction code：o122 
