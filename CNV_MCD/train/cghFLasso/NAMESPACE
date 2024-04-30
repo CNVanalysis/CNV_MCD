@@ -1,8 +1,0 @@
-useDynLib(cghFLasso)
-export(cghFLasso,
-   cghFLasso.ref, 
-   plot.cghFLasso,
-   summary.cghFLasso,
-   print.summary.cghFLasso,
-   output.cghFLasso
-)
